@@ -20,5 +20,12 @@
 #     print("Melhore URGENTE!!!!")
 
 #-------------------------------------------------------------------
+# Operadores AND e OR 
 
+usuario = input("Entre com o nome do usuário: ")
+senha = int(input("Entre com a senha: "))
 
+if usuario == "admin" and senha == 1234:
+    print("Acesso liberado")
+else:
+    print("Tente novamente!")
