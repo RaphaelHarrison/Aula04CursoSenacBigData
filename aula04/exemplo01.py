@@ -22,10 +22,27 @@
 #-------------------------------------------------------------------
 # Operadores AND e OR 
 
-usuario = input("Entre com o nome do usuário: ")
-senha = int(input("Entre com a senha: "))
+# usuario = input("Entre com o nome do usuário: ")
+# senha = int(input("Entre com a senha: "))
 
-if usuario == "admin" and senha == 1234:
-    print("Acesso liberado")
+# if usuario == "admin" and senha == 1234:
+#     print("Acesso liberado")
+# else:
+#     print("Tente novamente!")
+
+# Exemplo IFs
+nota = 10
+if nota >= 9:
+    print("A")
+    
+elif nota >= 7:
+    print("B")
+
+elif nota >= 5:
+    print("C")
+    
+elif nota >= 3:
+    print("D")
+
 else:
-    print("Tente novamente!")
+    print("E")
