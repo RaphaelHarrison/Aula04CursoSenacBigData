@@ -31,18 +31,30 @@
 #     print("Tente novamente!")
 
 # Exemplo IFs
-nota = 10
-if nota >= 9:
-    print("A")
+# nota = 10
+# if nota >= 9:
+#     print("A")
     
-elif nota >= 7:
-    print("B")
+# elif nota >= 7:
+#     print("B")
 
-elif nota >= 5:
-    print("C")
+# elif nota >= 5:
+#     print("C")
     
-elif nota >= 3:
-    print("D")
+# elif nota >= 3:
+#     print("D")
 
+# else:
+#     print("E")
+
+# IFs aninhados
+nota = float(input("Insira a nota: "))
+frequencia =  float(input("Informe a frquência: "))
+
+if nota >= 7:
+    if frequencia >= 75:
+        print("Aluno aprovado por Nota e Frequencia.")
+    else:
+        print("Reprovado por frequência baixa.")
 else:
-    print("E")
+    print("Reprovado por nota baixa.")
